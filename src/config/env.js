@@ -13,11 +13,11 @@ let imgBaseUrl = '';
 
 
 if (process.env.NODE_ENV == 'development') {
-    imgBaseUrl = '/img/';
+  imgBaseUrl = '/img/';
 
 }else if(process.env.NODE_ENV == 'production'){
 	baseUrl = '/';
-    imgBaseUrl = '/img';
+  imgBaseUrl = '/img';
 }
 
 export {
