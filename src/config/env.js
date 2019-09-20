@@ -16,8 +16,8 @@ if (process.env.NODE_ENV == 'development') {
   imgBaseUrl = '/img/';
 
 }else if(process.env.NODE_ENV == 'production'){
-	baseUrl = '47.101.153.52/';
-  imgBaseUrl = '47.101.153.52/img/';
+	baseUrl = '';
+  imgBaseUrl = '/img/';
 }
 
 export {
